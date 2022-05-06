@@ -1,4 +1,5 @@
 #include <iostream>
+#include <cmath>
 
 using namespace std;
 
@@ -6,7 +7,7 @@ extern int sumOfCube(int n);
 
 int main() 
 {
-    int number = 5;
+    int number = 3;
 
     cout << "Result: " << sumOfCube(number) << endl;
 

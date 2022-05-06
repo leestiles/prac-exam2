@@ -1,3 +1,5 @@
+#include <cmath>
+
 int sumOfCube(int n)
 {
     if (n < 1)
@@ -5,5 +7,5 @@ int sumOfCube(int n)
         return 0;
     }
 
-    return (n*n*n) + sumOfCube(n-1);// + sumOfCube(n-2);
+    return pow(n,3) + sumOfCube(n-1);// + sumOfCube(n-2);
 }
